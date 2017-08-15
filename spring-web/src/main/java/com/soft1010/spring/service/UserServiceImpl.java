@@ -31,4 +31,14 @@ public class UserServiceImpl implements UserService {
         user.setEmail("*****@163.com");
         return user;
     }
+
+    @Override
+    public User getUserById(Long id) {
+        User user = new User();
+        user.setId(id);
+        user.setName("zhang");
+        user.setAge(12);
+        user.setEmail("*****@163.com");
+        return user;
+    }
 }

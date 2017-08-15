@@ -7,6 +7,7 @@ import java.io.Serializable;
  */
 public class User implements Serializable{
 
+    private Long id;
     private String name;
     private String email;
     private String phone;
@@ -20,6 +21,14 @@ public class User implements Serializable{
         this.email = email;
         this.phone = phone;
         this.age = age;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -57,7 +66,8 @@ public class User implements Serializable{
     @Override
     public String toString() {
         return "User{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
                 ", age=" + age +
