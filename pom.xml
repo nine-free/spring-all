@@ -12,10 +12,12 @@
     <modules>
         <module>spring-web</module>
         <module>spring-context</module>
+        <module>spring-test</module>
     </modules>
 
     <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
+        <junit.version>4.11</junit.version>
     </properties>
 
     <dependencyManagement>
@@ -41,6 +43,11 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
