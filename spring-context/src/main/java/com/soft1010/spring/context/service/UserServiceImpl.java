@@ -13,7 +13,7 @@ public class UserServiceImpl implements UserService {
 
     public List<User> queryUser(String name) {
         //TODO  query user
-        System.out.println("name" + name);
+        System.out.println("name:" + name);
         return null;
     }
 
