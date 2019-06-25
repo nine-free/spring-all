@@ -1,4 +1,4 @@
-package com.soft1010.spring.context.model;
+package top.soft1010.spring.context.model;
 
 import java.io.Serializable;
 

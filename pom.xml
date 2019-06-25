@@ -14,6 +14,7 @@
         <module>spring-context</module>
         <module>spring-test</module>
         <module>spring-mvc-manual</module>
+        <module>spring-util</module>
     </modules>
 
     <properties>

@@ -12,5 +12,5 @@
     <context:component-scan base-package="com.soft1010.spring.context.service" />
 
 
-    <!--<bean name="userService" class="com.soft1010.spring.context.service.UserServiceImpl"></bean>-->
+    <!--<bean name="userService" class="UserServiceImpl"></bean>-->
 </beans>

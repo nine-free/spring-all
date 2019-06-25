@@ -1,6 +1,6 @@
-package com.soft1010.spring.context.service;
+package top.soft1010.spring.context.service;
 
-import com.soft1010.spring.context.model.User;
+import top.soft1010.spring.context.model.User;
 
 import java.util.List;
 
